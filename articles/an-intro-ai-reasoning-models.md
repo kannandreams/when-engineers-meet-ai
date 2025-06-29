@@ -35,6 +35,20 @@ sequenceDiagram
     end
 ```
 
+#### Modular & Tool-Augmented - diagram code
+```mermaid
+graph TD
+    A[User Prompt: Weather in Paris and what to wear?] --> B[LLM Controller]
+    B --> C[Tool Selection]
+    C --> D[Weather API]
+    D --> D1["Returns: Rainy, 15°C"]
+    C --> E[Recommendation Tool]
+    E --> E1["Returns: Wear waterproof jacket and sneakers"]
+    D1 --> F[Answer Synthesis]
+    E1 --> F
+    F --> G[Final Answer: Its rainy and 15°C. You should wear a waterproof jacket and sneakers]
+```
+
 #### Reasoning models challenges - LaTex
 
 ```latex
