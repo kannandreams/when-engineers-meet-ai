@@ -10,6 +10,8 @@ A curated list of learning materials and courses with reference links.
 | [This is Robotics 101: Computational Linear Algebra](https://www.youtube.com/playlist?list=PLdPQZLMHRjDK8ZbLIcq1Q2PQobIi68dpv)                                    | Videos           |
 | [This is Robotics 501: Mathematics for Robotics](https://www.youtube.com/playlist?list=PLdPQZLMHRjDIzO99aE7yAtdOHSVHMXfYH)                                        | Videos           |
 
+# Introduction Courses
+- [Introduction to Robotics](https://www.youtube.com/playlist?list=PLyqSpQzTE6M_XM9cvjLLO_Azt1FkgPhpH) - Introduction to Robotics | IIT Madras
 
 # Tools & Softwares for Robotics
 
