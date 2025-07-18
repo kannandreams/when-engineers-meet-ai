@@ -11,7 +11,10 @@ A curated list of learning materials and courses with reference links.
 | [This is Robotics 501: Mathematics for Robotics](https://www.youtube.com/playlist?list=PLdPQZLMHRjDIzO99aE7yAtdOHSVHMXfYH)                                        | Videos           |
 
 # Introduction Courses
-- [Introduction to Robotics](https://www.youtube.com/playlist?list=PLyqSpQzTE6M_XM9cvjLLO_Azt1FkgPhpH) - Introduction to Robotics | IIT Madras
+- [Introduction to Robotics](https://www.youtube.com/playlist?list=PLyqSpQzTE6M_XM9cvjLLO_Azt1FkgPhpH) | IIT Madras
+- [Introduction to Mobile Robotics](http://ais.informatik.uni-freiburg.de/teaching/ss16/robotics/index_en.php) | University of Freiburg
+
+
 
 # Tools & Softwares for Robotics
 
