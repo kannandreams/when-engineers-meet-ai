@@ -14,7 +14,8 @@ A curated list of research papers with their publication dates and reference lin
 | [Physical AI Agents: Integrating Cognitive Intelligence with Real-World Action](https://arxiv.org/pdf/2501.08944v1)                                               | PhysicalAI       |
 | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761)                                                                 | Agents           |
 | [A Survey of AIOps in the Era of Large Language Models](https://arxiv.org/abs/2507.12472)                                                                         | LLM, AIOps       |
-
+| [AI Agents vs. Agentic AI](https://arxiv.org/pdf/2505.10468)                                                                                                      | Agentic AI       |
+| [A Comprehensive Survey on Vector Database](https://arxiv.org/pdf/2310.11703v2)                                                                                   | Vector DB        |
 
 # Courses & Learning materials
 
