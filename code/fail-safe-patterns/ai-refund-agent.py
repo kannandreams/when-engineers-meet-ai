@@ -181,7 +181,7 @@ class RefundAgentCallback(BaseCallbackHandler):
         print(f"[{datetime.now().strftime('%H:%M:%S')}] Agent Finished")
 
 
-class LangChainRefundAgent:
+class RefundAgent:
     """
     LangChain-based AI Refund Agent with failsafe patterns.
     
@@ -330,16 +330,14 @@ Please analyze this request and take appropriate action according to company pol
 
 # --- Demonstration and Testing ---
 
-def demonstrate_langchain_refund_agent():
-    """Demonstrate the LangChain refund agent with various scenarios."""
-    
+def refund_agent():    
     print("="*80)
-    print("LANGCHAIN AI REFUND AGENT DEMONSTRATION")
+    print("AI REFUND AGENT")
     print("="*80)
     
     # Note: This will use a mock LLM if OpenAI API key is not available
     try:
-        agent = LangChainRefundAgent(confidence_threshold=0.7, high_value_threshold=300)
+        agent = RefundAgent(confidence_threshold=0.7, high_value_threshold=300)
     except Exception as e:
         print(f"Warning: Could not initialize OpenAI LLM: {e}")
         print("This demo will show the structure but may not work without proper API configuration.")
@@ -397,7 +395,7 @@ def demonstrate_langchain_refund_agent():
 
 
 if __name__ == "__main__":
-    # First demonstrate circuit breaker functionality
+    # circuit breaker functionality
     print("--- Demonstrating Circuit Breaker Pattern ---")
     for i in range(10):
         user_id = f"user_{random.randint(100, 999)}"
@@ -414,5 +412,4 @@ if __name__ == "__main__":
     
     print("\n" + "="*80 + "\n")
     
-    # Then demonstrate the full LangChain agent
-    demonstrate_langchain_refund_agent()
+    refund_agent()
