@@ -1,0 +1,17 @@
+PrimeRange,Method,version,threads,timetaken(in sec)
+20000,Single-threaded,3.14t,1,0.009
+20000,Multi-threaded,3.14t,4,0.004
+200000,Single-threaded,3.14t,1,0.181
+200000,Multi-threaded,3.14t,4,0.066
+2000000,Single-threaded,3.14t,1,5.632
+2000000,Multi-threaded,3.14t,4,2.048
+20000000,Single-threaded,3.14t,1,151.403
+20000000,Multi-threaded,3.14t,4,54.328
+20000,Single-threaded,3.12.10,1,0.010
+20000,Multi-threaded,3.12.10,4,0.011
+200000,Single-threaded,3.12.10,1,0.204
+200000,Multi-threaded,3.12.10,4,0.217
+2000000,Single-threaded,3.12.10,1,6.021
+2000000,Multi-threaded,3.12.10,4,5.711
+20000000,Single-threaded,3.12.10,1,164.114
+20000000,Multi-threaded,3.12.10,4,158.992
