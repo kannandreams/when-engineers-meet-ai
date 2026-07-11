@@ -1,0 +1,32 @@
+[build-system]
+requires = ["maturin>=1.9,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "faststats"
+version = "0.1.0"
+description = "A small statistical package with a Python API and Rust engine"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "FastStats contributors" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Rust",
+  "Operating System :: OS Independent",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.maturin]
+python-source = "python"
+module-name = "faststats._core"
+features = ["pyo3/extension-module"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,13 @@
+[package]
+name = "faststats"
+version = "0.1.0"
+edition = "2024"
+description = "A small Python package powered by Rust"
+license = "MIT"
+
+[lib]
+name = "_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.29", features = ["extension-module"] }
